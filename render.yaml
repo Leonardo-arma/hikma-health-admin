@@ -5,6 +5,7 @@ services:
     name: 'hikma-health-admin'
     env: node
     buildCommand: npm install; npm run build
+    region: Frankfurt
 
     startCommand: npm start
 
