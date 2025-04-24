@@ -1,6 +1,6 @@
 export const priorityValues = ['high', 'low', 'normal', 'emergency'] as const;
 export const statusValues = [
-  'pending',
+  'pending قيد الانتظار',
   'prepared',
   'picked-up',
   'not-picked-up',
